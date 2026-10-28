@@ -15,9 +15,9 @@ The Synchronistic Design Formal Operating Model provides a shared reasoning laye
 
 It is intended to sit above, connect and route work between three specialist capability repositories:
 
-1. **AQ Accessibility Testing**
-2. **Inclusive and Effective Design**
-3. **Organisation Governance and Strategy**
+1. **QA Accessibility Testing** https://github.com/Double-FW/QA_Accessibility_Testing
+2. **Inclusive and Effective Design** https://github.com/Double-FW/Inclusive_and_Effective_Design
+3. **Organisation Governance and Strategy** https://github.com/Double-FW/Organisation_Governance_and_Strategy
 
 The model does not merge those repositories or duplicate their specialist content. It gives an organisation a consistent way to decide which capability is needed, what evidence should move between them, where alignment has been achieved and where accountable human judgement is required.
 
