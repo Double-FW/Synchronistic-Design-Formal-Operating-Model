@@ -1,0 +1,20 @@
+{
+  "source_repository": "Double-FW/Synchronistic-Design-Formal-Operating-Model",
+  "destination_dataset": "GarethFW/Design_Synchronicity",
+  "dataset_version": "1.0.0",
+  "files": [
+    "AGENTS.md",
+    "README.md",
+    "Synchronistic_Design_Formal_Operating_Model_v0.1.md",
+    "Synchronistic_Design_Principles.md"
+  ],
+  "required_files": [
+    "AGENTS.md",
+    "README.md",
+    "Synchronistic_Design_Formal_Operating_Model_v0.1.md",
+    "Synchronistic_Design_Principles.md",
+    "LICENSE"
+  ],
+  "model_file": "Synchronistic_Design_Formal_Operating_Model_v0.1.md",
+  "approved_license_sha256": "7ef02bc0b6ba376de57be5f27784eef23df6a74068a4a2a172f95ba2c605b7af"
+}
