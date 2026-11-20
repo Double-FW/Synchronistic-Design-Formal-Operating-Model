@@ -13,13 +13,15 @@ The Synchronistic Design Formal Operating Model provides a shared reasoning laye
 - accessibility and quality evidence;
 - governance, accountability and organisational learning.
 
-It is intended to sit above, connect and route work between three specialist capability repositories:
+It is intended to sit above, connect and route work between three specialist capabilities, supported by public resources:
 
-1. **QA Accessibility Testing** https://github.com/Double-FW/QA_Accessibility_Testing
-2. **Inclusive and Effective Design** https://github.com/Double-FW/Inclusive_and_Effective_Design
-3. **Organisation Governance and Strategy** https://github.com/Double-FW/Organisation_Governance_and_Strategy
+1. **QA Accessibility Testing** — [QA Accessibility Testing](https://github.com/Double-FW/QA_Accessibility_Testing).
+2. **Inclusive and Effective Design** — [Accessibility and Inclusive Design Knowledge Base](https://github.com/Double-FW/Accessibility-and-Inclusive-Design-Knowledge-Base), supported by [POUR for Branding Systems and CX](https://github.com/Double-FW/POUR-for-Branding-Systems-and-CX) for brand promises and experience outcomes.
+3. **Organisation Governance and Strategy** — [Inclusion and Accessibility Policy](https://github.com/Double-FW/Inclusion-and-Accessibility-Policy), [Executive and Organisational Commitments](https://github.com/Double-FW/Executive-and-Organisational-Commitments) and [Accessibility Programme Runbooks](https://github.com/Double-FW/Accessibility_Programme_Runbooks).
 
-The model does not merge those repositories or duplicate their specialist content. It gives an organisation a consistent way to decide which capability is needed, what evidence should move between them, where alignment has been achieved and where accountable human judgement is required.
+These are capability names, not requirements to access repositories with matching names. Public routing was checked on 20 November 2026. The descriptions in section 6 define the contribution needed from each capability; they do not claim that any one linked repository contains every listed item. Use the public resource relevant to the question and record any evidence gap. No private repository content or access is required.
+
+The model does not merge the supporting repositories or duplicate their specialist content. It gives an organisation a consistent way to decide which capability is needed, what evidence should move between them, where alignment has been achieved and where accountable human judgement is required.
 
 It can be used by people, assisted by an LLM, or managed through an authorised agentic workflow.
 
@@ -38,7 +40,7 @@ It connects organisational intent with specialist knowledge and delivery evidenc
 ```mermaid
 flowchart TD
     A["Organisational context and authority"] --> B["Synchronistic Design reasoning layer"]
-    B --> C["AQ Accessibility Testing"]
+    B --> C["QA Accessibility Testing"]
     B --> D["Inclusive and Effective Design"]
     B --> E["Organisation Governance and Strategy"]
     C --> F["Delivery evidence and learning"]
@@ -131,7 +133,7 @@ The reasoning layer uses three connected assessment layers already reflected in 
 | --- | --- | --- |
 | 1. Scope and applicability | Establish what applies, why it applies, who may be affected and which authority governs the decision | Organisation Governance and Strategy |
 | 2. Inclusive service outcomes | Define the experience, capability and equivalent outcomes that the product or service should provide | Inclusive and Effective Design |
-| 3. Evidence, conformity and monitoring | Determine what has been demonstrated, how confidently it can be claimed and what must continue to be monitored | AQ Accessibility Testing |
+| 3. Evidence, conformity and monitoring | Determine what has been demonstrated, how confidently it can be claimed and what must continue to be monitored | QA Accessibility Testing |
 
 This is a reasoning sequence, not a rigid delivery lifecycle. Work may begin in any layer and move between them as evidence changes.
 
@@ -141,13 +143,13 @@ The reasoning layer preserves these connections and records why work has moved b
 
 ---
 
-## 6. The three connected capability repositories
+## 6. The three connected specialist capabilities
 
-### 6.1 AQ Accessibility Testing
+### 6.1 QA Accessibility Testing
 
 **Primary role:** establish what can be tested, what evidence exists and how confident the organisation can be in claims about accessibility and experience quality.
 
-This repository may contain:
+The capability may draw on the public resources above and actual authorised organisational evidence for:
 
 - test requirements and acceptance conditions;
 - automated, assisted and manual test methods;
@@ -170,7 +172,7 @@ Testing provides evidence. It does not independently decide product priority, po
 
 **Primary role:** translate intended human and organisational outcomes into inclusive design decisions, patterns, requirements and experience qualities.
 
-This repository may contain:
+The capability may draw on the public resources above and actual authorised organisational evidence for:
 
 - inclusive design principles and decision filters;
 - customer characteristics, barriers and contexts;
@@ -187,13 +189,13 @@ It answers questions such as:
 - What would an equivalent experience require?
 - Which assumptions require research or testing?
 
-The repository can inform a design system without depending on a particular system, token structure or component technology.
+This capability can inform a design system without depending on a particular system, token structure or component technology.
 
 ### 6.3 Organisation Governance and Strategy
 
 **Primary role:** connect inclusion and accessibility with organisational authority, values, risk, investment, ownership and continuous improvement.
 
-This repository may contain:
+The capability may draw on the public resources above and actual authorised organisational evidence for:
 
 - policies, commitments and strategic objectives;
 - roles, decision rights and accountability models;
@@ -287,13 +289,13 @@ The framing should identify:
 
 ### 3. Route
 
-Send the question to one or more specialist repositories.
+Send the question to one or more specialist capabilities using the public routes in section 1.
 
-- Route evaluation and evidence-confidence questions to **AQ Accessibility Testing**.
+- Route evaluation and evidence-confidence questions to **QA Accessibility Testing**.
 - Route experience, barrier and interaction questions to **Inclusive and Effective Design**.
 - Route accountability, policy, investment, exception and risk questions to **Organisation Governance and Strategy**.
 
-Most material questions will require more than one repository. Routing should preserve their distinct responsibilities rather than asking one repository to answer everything.
+Most material questions will require more than one capability. Routing should preserve their distinct responsibilities rather than asking one repository to answer everything.
 
 ### 4. Evaluate
 
@@ -420,7 +422,7 @@ An LLM can manage the reasoning process, but it does not become the accountable 
 ### The LLM may
 
 - interpret and classify incoming questions;
-- retrieve relevant knowledge from the three repositories;
+- retrieve relevant knowledge from the public resources supporting the three capabilities;
 - map organisational values to existing experience requirements;
 - identify contradictions, missing evidence and uncovered contexts;
 - create and maintain traceability between promises, requirements, designs, tests and decisions;
