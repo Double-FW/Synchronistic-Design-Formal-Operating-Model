@@ -106,7 +106,7 @@ The following public resources can complement this operating model as specialist
 | [Global_Accessiblity_Regulatory_Requirements](https://github.com/Double-FW/Global_Accessiblity_Regulatory_Requirements) | Helps identify jurisdictional obligations and source standards for scope and authority assessment; it does not replace legal advice. | Regulatory research, requirement mapping, assessment evidence, and reporting. |
 | [Inclusive-Games-Design](https://github.com/Double-FW/Inclusive-Games-Design) | Extends equivalent-experience reasoning to interactive, dynamic content and game contexts. | Inclusive game design, implementation, and testing. |
 
-Some specialist repositories mentioned in the formal model are not public. Do not treat them as publicly accessible dependencies; confirm access and authority before routing work to a non-public resource.
+The formal model routes three specialist capabilities through public Double FW resources listed in its purpose section. The capability names are roles, not requirements to access repositories with matching names. Select the public guidance relevant to the question, preserve its limits and record missing evidence; no private repository access is required. These references do not create integrations or grant organisational authority.
 
 ## Suggested repository structure
 
